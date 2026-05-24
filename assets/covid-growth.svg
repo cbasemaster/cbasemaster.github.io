@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="covid-growth.svg">
+  <rect width="960" height="540" fill="#fdfdfc"/>
+  <rect x="24" y="24" width="912" height="492" rx="20" fill="#ffffff" stroke="#e6e6e4"/>
+  
+  <g fill="none" stroke="#e6e6e4" stroke-width="2">
+    <path d="M92 420H870"/><path d="M92 320H870"/><path d="M92 220H870"/><path d="M92 120H870"/>
+    <path d="M180 78V426"/><path d="M330 78V426"/><path d="M480 78V426"/><path d="M630 78V426"/><path d="M780 78V426"/>
+  </g>
+  <path d="M100 385C172 370 206 340 260 305C322 265 368 274 418 225C466 178 518 136 598 148C690 162 734 247 856 126" fill="none" stroke="#212121" stroke-width="10" stroke-linecap="round"/>
+  <path d="M100 410C190 408 252 382 316 350C394 311 462 318 536 282C616 243 706 235 856 198" fill="none" stroke="#888" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="598" cy="148" r="18" fill="#111"/><circle cx="856" cy="126" r="18" fill="#111"/>
+  <text x="80" y="86" font-family="Inter, Arial" font-size="28" font-weight="600" fill="#111">Multivariate LSTM Forecast</text>
+  <text x="80" y="472" font-family="Inter, Arial" font-size="20" fill="#6f6f6f">COVID-19 growth prediction</text>
+
+</svg>
