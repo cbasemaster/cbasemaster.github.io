@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal academic website for Novanto Yudistira, researcher in pattern recognition and time-series AI.">
+    <title>Novanto Yudistira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">Novanto</a>
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Publications</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <img
+            class="avatar"
+            src="https://github.com/cbasemaster.png?size=440"
+            alt="Novanto Yudistira"
+            width="220"
+            height="220"
+          >
+          <h1>Novanto Yudistira</h1>
+          <p class="subtitle">Pattern Recognition / Time-Series AI / Explainable Machine Learning</p>
+          <p class="hero-note">PhD in pattern recognition from Japan. Based in Indonesia.</p>
+        </div>
+      </section>
+
+      <section id="works" class="works">
+        <div class="container wide">
+          <h2>Featured Works</h2>
+          <div class="works-grid">
+            <a href="https://github.com/cbasemaster/lstmcorona" class="work-item" target="_blank" rel="noreferrer">
+              <img
+                src="https://opengraph.githubassets.com/novanto-yudistira-lstmcorona/cbasemaster/lstmcorona"
+                alt="lstmcorona repository preview"
+              >
+              <div class="work-info">
+                <span class="work-title">COVID-19 Growth Prediction using Multivariate LSTM</span>
+                <span class="work-venue">arXiv / Python research code</span>
+              </div>
+            </a>
+            <a href="https://github.com/cbasemaster/time-series-attribution" class="work-item" target="_blank" rel="noreferrer">
+              <img
+                src="https://opengraph.githubassets.com/novanto-yudistira-time-series-attribution/cbasemaster/time-series-attribution"
+                alt="time-series-attribution repository preview"
+              >
+              <div class="work-info">
+                <span class="work-title">Learning Where to Look for COVID-19 Growth</span>
+                <span class="work-venue">Applied Soft Computing / Explainable Conv-LSTM</span>
+              </div>
+            </a>
+          </div>
+          <p class="view-all"><a href="#publications">View all publications</a></p>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container narrow">
+          <h2>About</h2>
+          <p>
+            I work on machine learning methods for recognizing patterns in complex data,
+            with a focus on temporal signals, deep neural networks, and explainable AI.
+            My public research code explores COVID-19 growth prediction, environmental
+            factors such as UV and pollution, mobility signals, and attribution methods
+            for sequence models.
+          </p>
+        </div>
+      </section>
+
+      <section id="publications" class="publications">
+        <div class="container">
+          <h2>Publications</h2>
+          <article class="publication-item">
+            <a href="https://github.com/cbasemaster/time-series-attribution" target="_blank" rel="noreferrer">
+              <img
+                class="thumb"
+                src="https://opengraph.githubassets.com/novanto-yudistira-pub-attribution/cbasemaster/time-series-attribution"
+                alt="time-series attribution repository preview"
+              >
+            </a>
+            <div class="info">
+              <span class="badge">Selected</span>
+              <h3>Learning Where to Look for COVID-19 Growth: Multivariate Analysis of COVID-19 Cases over Time using Explainable Convolution-LSTM</h3>
+              <p class="authors">Novanto Yudistira and collaborators</p>
+              <p class="venue">Applied Soft Computing, 2021</p>
+              <p class="links">
+                <a href="https://github.com/cbasemaster/time-series-attribution" target="_blank" rel="noreferrer">Code</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <a href="https://github.com/cbasemaster/lstmcorona" target="_blank" rel="noreferrer">
+              <img
+                class="thumb"
+                src="https://opengraph.githubassets.com/novanto-yudistira-pub-lstm/cbasemaster/lstmcorona"
+                alt="lstmcorona repository preview"
+              >
+            </a>
+            <div class="info">
+              <h3>COVID-19 Growth Prediction using Multivariate Long Short Term Memory</h3>
+              <p class="authors">Novanto Yudistira</p>
+              <p class="venue">arXiv, 2020</p>
+              <p class="links">
+                <a href="https://github.com/cbasemaster/lstmcorona" target="_blank" rel="noreferrer">Code</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <a href="https://github.com/cbasemaster/uvcorona" target="_blank" rel="noreferrer">
+              <img
+                class="thumb"
+                src="https://opengraph.githubassets.com/novanto-yudistira-pub-uv/cbasemaster/uvcorona"
+                alt="uvcorona repository preview"
+              >
+            </a>
+            <div class="info">
+              <h3>Analysis of COVID-19 Pandemic Growth in Subtropical and Tropical Countries using Big Data Analytics</h3>
+              <p class="authors">Novanto Yudistira and collaborators</p>
+              <p class="venue">Environmental signal analysis, 2020</p>
+              <p class="links">
+                <a href="https://github.com/cbasemaster/uvcorona" target="_blank" rel="noreferrer">Code</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="cv" class="cv">
+        <div class="container narrow">
+          <h2>CV</h2>
+          <div class="cv-item">
+            <span class="cv-date">Research Area</span>
+            <div class="cv-details">
+              <strong>Pattern Recognition and Deep Learning</strong>
+              <p>Time-series modeling, explainable AI, public-health analytics, and environmental signals.</p>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Profile</span>
+            <div class="cv-details">
+              <strong>PhD in pattern recognition from Japan</strong>
+              <p>Public GitHub profile: cbasemaster.</p>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">Tools</span>
+            <div class="cv-details">
+              <strong>Python research stack</strong>
+              <p>Machine learning experiments, scientific computing, and open research code.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container">
+        <ul class="icons" aria-label="Social links">
+          <li><a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://github.com/cbasemaster?tab=repositories" target="_blank" rel="noreferrer" aria-label="Repositories">Repos</a></li>
+          <li><a href="#cv" aria-label="CV">CV</a></li>
+        </ul>
+        <p class="copyright">Copyright <span id="year"></span> Novanto Yudistira</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
