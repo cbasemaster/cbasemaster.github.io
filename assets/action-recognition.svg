@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="action-recognition.svg">
+  <rect width="960" height="540" fill="#fdfdfc"/>
+  <rect x="24" y="24" width="912" height="492" rx="20" fill="#ffffff" stroke="#e6e6e4"/>
+  
+  <g transform="translate(86 92)" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="154" height="104" rx="12"/><rect x="64" y="70" width="154" height="104" rx="12" opacity="0.75"/><rect x="128" y="140" width="154" height="104" rx="12" opacity="0.5"/>
+  </g>
+  <g transform="translate(430 92)">
+    <circle cx="122" cy="56" r="28" fill="#111"/>
+    <path d="M122 92L88 176L148 176Z" fill="#111"/>
+    <path d="M96 126L36 92M146 126L210 98M96 176L62 256M148 176L198 254" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <path d="M304 20V300" stroke="#e6e6e4" stroke-width="3"/>
+    <path d="M350 250C396 214 424 174 466 148C510 122 544 84 592 58" stroke="#111" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <circle cx="350" cy="250" r="12" fill="#111"/><circle cx="466" cy="148" r="12" fill="#111"/><circle cx="592" cy="58" r="12" fill="#111"/>
+  </g>
+  <text x="80" y="86" font-family="Inter, Arial" font-size="28" font-weight="600" fill="#111">3D CNN Action Recognition</text>
+  <text x="80" y="470" font-family="Inter, Arial" font-size="20" fill="#6f6f6f">Global-local attention for video understanding</text>
+
+</svg>
