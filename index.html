@@ -7,8 +7,8 @@
     <title>Novanto Yudistira</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260524-2">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260524-3">
   </head>
   <body>
     <nav class="site-nav" aria-label="Primary navigation">
@@ -16,8 +16,9 @@
         <a class="logo" href="index.html">Yudis</a>
         <ul class="nav-links">
           <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#works">Works</a></li>
+          <li><a href="#about">Bio</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#works">Papers</a></li>
           <li><a href="#books">Books</a></li>
           <li><a href="#publications">Publications</a></li>
           <li><a href="#cv">CV</a></li>
@@ -27,66 +28,113 @@
     </nav>
 
     <main>
-      <section class="hero">
-        <div class="hero-content">
-          <img class="avatar" src="assets/profile.svg" alt="Novanto Yudistira" width="220" height="220">
-          <p class="eyebrow">Faculty of Computer Science, Universitas Brawijaya</p>
-          <h1>Novanto Yudistira</h1>
-          <p class="subtitle">Pattern Recognition / Computer Vision / Deep Learning / Medical Informatics / Big Data Analytics</p>
-          <div class="hero-links" aria-label="Profile links">
-            <a href="mailto:yudistira@ub.ac.id">Email</a>
-            <a href="https://scholar.google.com/citations?user=NxSJRlYAAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar</a>
-            <a href="https://orcid.org/0000-0001-5330-5930" target="_blank" rel="noreferrer">ORCID</a>
-            <a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a>
-            <a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">Metrics</a>
-            <a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.youtube.com/channel/UCq3nwupopXZ8bCuRMtZzDpA/videos" target="_blank" rel="noreferrer">YouTube</a>
-            <a href="https://filkom.ub.ac.id/profile/dosen/novanto.yudistira" target="_blank" rel="noreferrer">FILKOM</a>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Computer vision / deep learning / medical AI</p>
+            <h1>Novanto Yudistira</h1>
+            <p class="subtitle">
+              Researcher at Universitas Brawijaya working on pattern recognition, multimodal
+              vision, explainable deep learning, time-series modeling, and AI systems for public impact.
+            </p>
+            <div class="hero-links" aria-label="Profile links">
+              <a href="mailto:yudistira@ub.ac.id">Email</a>
+              <a href="https://scholar.google.com/citations?user=NxSJRlYAAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar</a>
+              <a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a>
+              <a href="https://orcid.org/0000-0001-5330-5930" target="_blank" rel="noreferrer">ORCID</a>
+              <a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/novanto-yudistira/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://www.threads.com/@cbasemaster?hl=en" target="_blank" rel="noreferrer">Threads</a>
+              <a href="https://www.youtube.com/channel/UCq3nwupopXZ8bCuRMtZzDpA/videos" target="_blank" rel="noreferrer">YouTube</a>
+            </div>
           </div>
-        </div>
-      </section>
-
-      <section class="stats">
-        <div class="container stats-grid">
-          <div>
-            <strong data-metric="scopusHIndex">15</strong>
-            <span>Scopus H-index</span>
-          </div>
-          <div>
-            <strong data-metric="scholarHIndex">24</strong>
-            <span>Google Scholar H-index</span>
-          </div>
-          <div>
-            <strong data-metric="wosHIndex">9</strong>
-            <span>Web of Science H-index</span>
-          </div>
+          <aside class="profile-panel" aria-label="Profile summary">
+            <img class="avatar" src="assets/profile.svg" alt="Novanto Yudistira" width="220" height="220">
+            <p class="affiliation">Faculty of Computer Science, Universitas Brawijaya</p>
+            <div class="metric-list">
+              <div>
+                <strong data-metric="scopusHIndex">15</strong>
+                <span>Scopus H-index</span>
+              </div>
+              <div>
+                <strong data-metric="scholarHIndex">24</strong>
+                <span>Scholar H-index</span>
+              </div>
+              <div>
+                <strong data-metric="wosHIndex">9</strong>
+                <span>WoS H-index</span>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 
       <section id="about" class="about">
-        <div class="container narrow">
-          <h2>About</h2>
-          <p>
-            Novanto Yudistira is a lecturer and researcher at the Faculty of Computer Science,
-            Universitas Brawijaya, Indonesia. He earned a Bachelor of Computer Science in
-            Informatics Engineering from Institut Teknologi Sepuluh Nopember, an MSc in
-            Computer Science from Universiti Teknologi Malaysia, and a Doctor of Engineering
-            in Information Engineering from Hiroshima University, Japan, under Prof. Takio Kurita.
-          </p>
-          <p>
-            His research spans pattern recognition, multimodal computer vision, medical
-            informatics, explainable deep learning, large language and visual models, and
-            big data analytics. He has collaborated with AIST, RIKEN, Osaka University, and
-            other partners, and is active as founder of the Deep Learning Indonesia community.
-            He also helps drive AI research initiatives at Universitas Brawijaya, including
-            cross-disciplinary work around health, industry, and cultural technology.
-          </p>
+        <div class="container split-section">
+          <div class="section-label">Bio</div>
+          <div class="section-body">
+            <h2>Research at the intersection of vision, sequence learning, and applied AI.</h2>
+            <p>
+              Novanto Yudistira is a lecturer and researcher at the Faculty of Computer Science,
+              Universitas Brawijaya, Indonesia. He earned a Bachelor of Computer Science in
+              Informatics Engineering from Institut Teknologi Sepuluh Nopember, an MSc in
+              Computer Science from Universiti Teknologi Malaysia, and a Doctor of Engineering
+              in Information Engineering from Hiroshima University, Japan, under Prof. Takio Kurita.
+            </p>
+            <p>
+              His work spans pattern recognition, multimodal computer vision, medical
+              informatics, explainable deep learning, large language and visual models, and
+              big data analytics. He has collaborated with AIST, RIKEN, Osaka University, and
+              other partners, and is active as founder of the Deep Learning Indonesia community.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="research">
+        <div class="container split-section">
+          <div class="section-label">Research Focus</div>
+          <div class="section-body">
+            <div class="focus-grid">
+              <article>
+                <span>01</span>
+                <h3>Visual Recognition</h3>
+                <p>Action recognition, weakly-supervised localization, multimodal video modeling, and cultural visual AI.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h3>Explainable Health AI</h3>
+                <p>Deep models for medical imaging, organelle localization, COVID-19 growth analysis, and interpretable decision support.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h3>Sequence and Time Series</h3>
+                <p>Forecasting, attribution, calibration, and deep learning pipelines for real-world temporal signals.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="container split-section">
+          <div class="section-label">News</div>
+          <div class="section-body">
+            <div class="news-list">
+              <p><span>2026</span> Personal academic website refreshed with sourced paper figures, books, and publication links.</p>
+              <p><span>2024-2025</span> Research recognition for generative batik restoration and new category discovery.</p>
+              <p><span>2023-2024</span> Teaching books on deep learning foundations and time-series prediction published.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="works" class="works">
         <div class="container wide">
-          <h2>Featured Works</h2>
+          <div class="section-heading">
+            <p class="section-label">Papers</p>
+            <h2>Selected visual works</h2>
+          </div>
           <div class="works-grid">
             <a href="https://www.medrxiv.org/content/10.1101/2021.02.13.21251683v1" class="work-item" target="_blank" rel="noreferrer">
               <img src="assets/work-covid-convlstm-source.jpg" alt="Explainable Conv-LSTM architecture figure from the medRxiv preprint">
@@ -127,7 +175,10 @@
 
       <section id="books" class="publications books">
         <div class="container">
-          <h2>Teaching Books</h2>
+          <div class="section-heading">
+            <p class="section-label">Books</p>
+            <h2>Teaching Books</h2>
+          </div>
           <article class="publication-item">
             <div class="pub-year">2024</div>
             <div class="info">
@@ -163,7 +214,10 @@
 
       <section id="publications" class="publications">
         <div class="container">
-          <h2>Selected Publications</h2>
+          <div class="section-heading">
+            <p class="section-label">Publications</p>
+            <h2>Selected Publications</h2>
+          </div>
           <article class="publication-item">
             <div class="pub-year">2022</div>
             <div class="info">
@@ -241,7 +295,9 @@
       </section>
 
       <section id="cv" class="cv">
-        <div class="container narrow">
+        <div class="container split-section">
+          <div class="section-label">CV</div>
+          <div class="section-body">
           <h2>CV Highlights</h2>
           <div class="cv-item">
             <span class="cv-date">2007</span>
@@ -285,6 +341,7 @@
               <p>Authored and co-authored Indonesian deep learning books on foundations, implementation, and time-series prediction.</p>
             </div>
           </div>
+          </div>
         </div>
       </section>
     </main>
@@ -299,12 +356,14 @@
           <li><a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">Metrics</a></li>
           <li><a href="https://filkom.ub.ac.id/profile/dosen/novanto.yudistira" target="_blank" rel="noreferrer">FILKOM</a></li>
           <li><a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/novanto-yudistira/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="https://www.threads.com/@cbasemaster?hl=en" target="_blank" rel="noreferrer">Threads</a></li>
           <li><a href="https://www.youtube.com/channel/UCq3nwupopXZ8bCuRMtZzDpA/videos" target="_blank" rel="noreferrer">YouTube</a></li>
         </ul>
         <p class="copyright">Copyright <span id="year"></span> Novanto Yudistira</p>
       </div>
     </footer>
 
-    <script src="script.js?v=20260524"></script>
+    <script src="script.js?v=20260524-2"></script>
   </body>
 </html>
