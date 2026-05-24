@@ -222,11 +222,14 @@ section {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 8px;
+  text-align: center;
 }
 
 .avatar {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  width: 224px;
+  height: 224px;
+  max-width: 100%;
+  margin-inline: auto;
   object-fit: cover;
   background: var(--soft);
   border-radius: 8px;
