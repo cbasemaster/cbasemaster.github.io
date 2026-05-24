@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="batik-ai.svg">
+  <rect width="960" height="540" fill="#fdfdfc"/>
+  <rect x="24" y="24" width="912" height="492" rx="20" fill="#ffffff" stroke="#e6e6e4"/>
+  
+  <defs><pattern id="batik" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M40 4C64 18 64 62 40 76C16 62 16 18 40 4Z" fill="none" stroke="#111" stroke-width="5"/><circle cx="40" cy="40" r="12" fill="#111"/></pattern></defs>
+  <rect x="78" y="108" width="360" height="300" rx="18" fill="url(#batik)" opacity="0.85"/>
+  <g transform="translate(532 116)">
+    <rect x="0" y="0" width="270" height="54" rx="10" fill="#f2f2f0"/><rect x="0" y="78" width="330" height="54" rx="10" fill="#f2f2f0"/><rect x="0" y="156" width="230" height="54" rx="10" fill="#f2f2f0"/>
+    <path d="M28 250C82 206 126 232 176 190C222 152 270 158 320 110" stroke="#111" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="28" cy="250" r="12" fill="#111"/><circle cx="176" cy="190" r="12" fill="#111"/><circle cx="320" cy="110" r="12" fill="#111"/>
+  </g>
+  <text x="80" y="86" font-family="Inter, Arial" font-size="28" font-weight="600" fill="#111">Generative Batik AI</text>
+  <text x="80" y="470" font-family="Inter, Arial" font-size="20" fill="#6f6f6f">Pattern restoration, synthesis, and cultural AI</text>
+
+</svg>
