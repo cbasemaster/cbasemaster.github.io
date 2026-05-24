@@ -236,7 +236,7 @@ section {
 }
 
 .metric-list {
-  margin-top: 1rem;
+  margin-top: 1.8rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
