@@ -235,21 +235,8 @@ section {
   border-radius: 8px;
 }
 
-.role {
-  margin: 1rem 0 0.35rem;
-  color: var(--text);
-  font-size: 0.96rem;
-  font-weight: 700;
-  line-height: 1.35;
-}
-
-.affiliation {
-  margin: 0 0 1rem;
-  color: var(--muted);
-  font-size: 0.92rem;
-}
-
 .metric-list {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
@@ -295,6 +282,48 @@ section {
 .section-body > p {
   color: #343941;
   font-size: 1.02rem;
+}
+
+.current-roles {
+  margin: 1.8rem 0 1.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.current-roles h3 {
+  margin-bottom: 0.9rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.current-role-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.current-role-list article {
+  padding-top: 0.8rem;
+  border-top: 2px solid var(--border);
+}
+
+.current-role-list span {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--accent-2);
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.current-role-list strong {
+  display: block;
+  font-size: 1.02rem;
+  line-height: 1.45;
 }
 
 .research,
@@ -698,6 +727,7 @@ footer {
   }
 
   .focus-grid,
+  .current-role-list,
   .roadmap-layout,
   .repo-grid,
   .works-grid {
