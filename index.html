@@ -13,7 +13,7 @@
   <body>
     <nav class="site-nav" aria-label="Primary navigation">
       <div class="container nav-inner">
-        <a class="logo" href="index.html">Novanto</a>
+        <a class="logo" href="index.html">Yudis</a>
         <ul class="nav-links">
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -34,9 +34,12 @@
           <p class="subtitle">Pattern Recognition / Computer Vision / Deep Learning / Medical Informatics / Big Data Analytics</p>
           <div class="hero-links" aria-label="Profile links">
             <a href="mailto:yudistira@ub.ac.id">Email</a>
+            <a href="https://scholar.google.com/citations?user=NxSJRlYAAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar</a>
+            <a href="https://orcid.org/0000-0001-5330-5930" target="_blank" rel="noreferrer">ORCID</a>
             <a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a>
-            <a href="https://sinta.kemdikbud.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">SINTA</a>
+            <a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">Metrics</a>
             <a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://filkom.ub.ac.id/profile/dosen/novanto.yudistira" target="_blank" rel="noreferrer">FILKOM</a>
           </div>
         </div>
       </section>
@@ -44,20 +47,16 @@
       <section class="stats">
         <div class="container stats-grid">
           <div>
-            <strong>15</strong>
+            <strong data-metric="scopusHIndex">15</strong>
             <span>Scopus H-index</span>
           </div>
           <div>
-            <strong>57188984613</strong>
-            <span>Scopus Author ID</span>
+            <strong data-metric="scholarHIndex">24</strong>
+            <span>Google Scholar H-index</span>
           </div>
           <div>
-            <strong>6690720</strong>
-            <span>SINTA Profile ID</span>
-          </div>
-          <div>
-            <strong>Q1/Q2</strong>
-            <span>International journal portfolio</span>
+            <strong data-metric="wosHIndex">9</strong>
+            <span>Web of Science H-index</span>
           </div>
         </div>
       </section>
@@ -77,6 +76,8 @@
             informatics, explainable deep learning, large language and visual models, and
             big data analytics. He has collaborated with AIST, RIKEN, Osaka University, and
             other partners, and is active as founder of the Deep Learning Indonesia community.
+            He also helps drive AI research initiatives at Universitas Brawijaya, including
+            cross-disciplinary work around health, industry, and cultural technology.
           </p>
         </div>
       </section>
@@ -85,32 +86,36 @@
         <div class="container wide">
           <h2>Featured Works</h2>
           <div class="works-grid">
-            <a href="https://github.com/cbasemaster/time-series-attribution" class="work-item" target="_blank" rel="noreferrer">
-              <img src="assets/explainable-convlstm.svg" alt="Explainable Conv-LSTM graphical thumbnail">
+            <a href="https://www.medrxiv.org/content/10.1101/2021.02.13.21251683v1" class="work-item" target="_blank" rel="noreferrer">
+              <img src="assets/work-covid-convlstm-source.jpg" alt="Explainable Conv-LSTM architecture figure from the medRxiv preprint">
               <div class="work-info">
                 <span class="work-title">Learning Where to Look for COVID-19 Growth</span>
                 <span class="work-venue">Applied Soft Computing, 2021 / Explainable Conv-LSTM</span>
+                <span class="work-source">Figure source: medRxiv preprint</span>
               </div>
             </a>
-            <a href="https://github.com/cbasemaster/lstmcorona" class="work-item" target="_blank" rel="noreferrer">
-              <img src="assets/covid-growth.svg" alt="COVID-19 growth forecast graphical thumbnail">
+            <a href="https://arxiv.org/abs/1807.08291" class="work-item" target="_blank" rel="noreferrer">
+              <img src="assets/work-correlation-net-source.jpg" alt="Correlation Net architecture figure from arXiv">
               <div class="work-info">
-                <span class="work-title">COVID-19 Growth Prediction using Multivariate LSTM</span>
-                <span class="work-venue">International Journal of Computer Science, 2020</span>
+                <span class="work-title">Correlation Net for Action Recognition</span>
+                <span class="work-venue">Signal Processing: Image Communication, 2020</span>
+                <span class="work-source">Figure source: arXiv:1807.08291</span>
               </div>
             </a>
-            <a href="https://github.com/cbasemaster/3DCNNattr" class="work-item" target="_blank" rel="noreferrer">
-              <img src="assets/action-recognition.svg" alt="3D CNN action recognition graphical thumbnail">
+            <a href="https://arxiv.org/abs/2012.09542" class="work-item" target="_blank" rel="noreferrer">
+              <img src="assets/work-action-localization-source.jpg" alt="3DCam visual attribution figure from arXiv">
               <div class="work-info">
                 <span class="work-title">Weakly-Supervised Action Localization and Recognition</span>
                 <span class="work-venue">International Journal of Computer Vision, 2022</span>
+                <span class="work-source">Figure source: arXiv:2012.09542</span>
               </div>
             </a>
-            <a href="#publications" class="work-item">
-              <img src="assets/batik-ai.svg" alt="Generative batik AI graphical thumbnail">
+            <a href="https://arxiv.org/abs/2307.12122" class="work-item" target="_blank" rel="noreferrer">
+              <img src="assets/work-batik-source.jpg" alt="Synthetic batik motif samples from arXiv">
               <div class="work-info">
                 <span class="work-title">Generative Batik and Cultural AI</span>
-                <span class="work-venue">Pattern restoration, synthesis, and diffusion-based generation</span>
+                <span class="work-venue">Prompt-to-batik research with FILKOM and FCS UB</span>
+                <span class="work-source">Figure source: arXiv:2307.12122</span>
               </div>
             </a>
           </div>
@@ -211,6 +216,13 @@
               <p>Best Paper awards for generative batik restoration and new category discovery, plus Dekranasda recognition for GenBatik.</p>
             </div>
           </div>
+          <div class="cv-item">
+            <span class="cv-date">2023-2024</span>
+            <div class="cv-details">
+              <strong>Books and teaching materials</strong>
+              <p>Authored and co-authored Indonesian deep learning books on foundations, implementation, and time-series prediction.</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -219,8 +231,11 @@
       <div class="container">
         <ul class="icons" aria-label="Social links">
           <li><a href="mailto:yudistira@ub.ac.id">Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=NxSJRlYAAAAJ&hl=en" target="_blank" rel="noreferrer">Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0001-5330-5930" target="_blank" rel="noreferrer">ORCID</a></li>
           <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a></li>
-          <li><a href="https://sinta.kemdikbud.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">SINTA</a></li>
+          <li><a href="https://sinta.kemdiktisaintek.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">Metrics</a></li>
+          <li><a href="https://filkom.ub.ac.id/profile/dosen/novanto.yudistira" target="_blank" rel="noreferrer">FILKOM</a></li>
           <li><a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a></li>
         </ul>
         <p class="copyright">Copyright <span id="year"></span> Novanto Yudistira</p>

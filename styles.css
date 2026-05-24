@@ -215,7 +215,7 @@ section {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--border);
@@ -298,6 +298,12 @@ section {
 .work-venue {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.work-source {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .view-all {
