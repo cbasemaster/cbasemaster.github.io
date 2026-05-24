@@ -29,7 +29,7 @@ body {
   color: var(--text);
   background: var(--bg);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
@@ -235,8 +235,16 @@ section {
   border-radius: 8px;
 }
 
+.role {
+  margin: 1rem 0 0.35rem;
+  color: var(--text);
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .affiliation {
-  margin: 1rem 0;
+  margin: 0 0 1rem;
   color: var(--muted);
   font-size: 0.92rem;
 }
@@ -286,10 +294,12 @@ section {
 
 .section-body > p {
   color: #343941;
+  font-size: 1.02rem;
 }
 
 .research,
 .roadmap,
+.code,
 .books {
   background: var(--surface);
 }
@@ -316,7 +326,7 @@ section {
 .focus-grid p,
 .news-list p {
   color: var(--muted);
-  font-size: 0.94rem;
+  font-size: 0.98rem;
 }
 
 .news {
@@ -361,7 +371,7 @@ section {
 .roadmap-figure figcaption {
   margin-top: 0.75rem;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.95rem;
 }
 
 .roadmap-notes {
@@ -370,7 +380,7 @@ section {
 }
 
 .roadmap-notes article {
-  padding: 1rem;
+  padding: 1.1rem;
   background: #fbfcfe;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -380,14 +390,74 @@ section {
   display: block;
   margin-bottom: 0.35rem;
   color: var(--accent-2);
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   font-weight: 800;
 }
 
 .roadmap-notes p {
   margin-bottom: 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.98rem;
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.repo-card {
+  display: grid;
+  gap: 0.7rem;
+  align-content: start;
+  padding: 1.1rem;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.repo-card span {
+  color: var(--accent-2);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.repo-card h3 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.repo-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.repo-card a {
+  justify-self: start;
+  min-height: 30px;
+  padding: 0.25rem 0.56rem;
+  color: var(--accent);
+  background: #f5f8ff;
+  border: 1px solid #d9e4ff;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.repo-card a:hover,
+.repo-card a:focus-visible {
+  color: var(--surface);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.code-note {
+  max-width: 860px;
+  margin: 1.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .section-heading {
@@ -629,6 +699,7 @@ footer {
 
   .focus-grid,
   .roadmap-layout,
+  .repo-grid,
   .works-grid {
     grid-template-columns: 1fr;
   }
@@ -649,7 +720,7 @@ footer {
   }
 
   body {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   h1 {
