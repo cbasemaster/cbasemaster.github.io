@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal academic website for Novanto Yudistira, researcher in pattern recognition and time-series AI.">
+    <meta name="description" content="Personal academic website for Dr. Eng. Novanto Yudistira, researcher in pattern recognition, computer vision, deep learning, and AI for public impact.">
     <title>Novanto Yudistira</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,8 @@
         <ul class="nav-links">
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#works">Publications</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#publications">Publications</a></li>
           <li><a href="#cv">CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -27,45 +28,37 @@
     <main>
       <section class="hero">
         <div class="hero-content">
-          <img
-            class="avatar"
-            src="https://github.com/cbasemaster.png?size=440"
-            alt="Novanto Yudistira"
-            width="220"
-            height="220"
-          >
-          <h1>Novanto Yudistira</h1>
-          <p class="subtitle">Pattern Recognition / Time-Series AI / Explainable Machine Learning</p>
-          <p class="hero-note">PhD in pattern recognition from Japan. Based in Indonesia.</p>
+          <img class="avatar" src="assets/profile.svg" alt="Novanto Yudistira" width="220" height="220">
+          <p class="eyebrow">Faculty of Computer Science, Universitas Brawijaya</p>
+          <h1>Dr. Eng. Novanto Yudistira, S.Kom., M.Sc.</h1>
+          <p class="subtitle">Pattern Recognition / Computer Vision / Deep Learning / Medical Informatics / Big Data Analytics</p>
+          <div class="hero-links" aria-label="Profile links">
+            <a href="mailto:yudistira@ub.ac.id">Email</a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a>
+            <a href="https://sinta.kemdikbud.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">SINTA</a>
+            <a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
         </div>
       </section>
 
-      <section id="works" class="works">
-        <div class="container wide">
-          <h2>Featured Works</h2>
-          <div class="works-grid">
-            <a href="https://github.com/cbasemaster/lstmcorona" class="work-item" target="_blank" rel="noreferrer">
-              <img
-                src="https://opengraph.githubassets.com/novanto-yudistira-lstmcorona/cbasemaster/lstmcorona"
-                alt="lstmcorona repository preview"
-              >
-              <div class="work-info">
-                <span class="work-title">COVID-19 Growth Prediction using Multivariate LSTM</span>
-                <span class="work-venue">arXiv / Python research code</span>
-              </div>
-            </a>
-            <a href="https://github.com/cbasemaster/time-series-attribution" class="work-item" target="_blank" rel="noreferrer">
-              <img
-                src="https://opengraph.githubassets.com/novanto-yudistira-time-series-attribution/cbasemaster/time-series-attribution"
-                alt="time-series-attribution repository preview"
-              >
-              <div class="work-info">
-                <span class="work-title">Learning Where to Look for COVID-19 Growth</span>
-                <span class="work-venue">Applied Soft Computing / Explainable Conv-LSTM</span>
-              </div>
-            </a>
+      <section class="stats">
+        <div class="container stats-grid">
+          <div>
+            <strong>15</strong>
+            <span>Scopus H-index</span>
           </div>
-          <p class="view-all"><a href="#publications">View all publications</a></p>
+          <div>
+            <strong>57188984613</strong>
+            <span>Scopus Author ID</span>
+          </div>
+          <div>
+            <strong>6690720</strong>
+            <span>SINTA Profile ID</span>
+          </div>
+          <div>
+            <strong>Q1/Q2</strong>
+            <span>International journal portfolio</span>
+          </div>
         </div>
       </section>
 
@@ -73,70 +66,108 @@
         <div class="container narrow">
           <h2>About</h2>
           <p>
-            I work on machine learning methods for recognizing patterns in complex data,
-            with a focus on temporal signals, deep neural networks, and explainable AI.
-            My public research code explores COVID-19 growth prediction, environmental
-            factors such as UV and pollution, mobility signals, and attribution methods
-            for sequence models.
+            Novanto Yudistira is a lecturer and researcher at the Faculty of Computer Science,
+            Universitas Brawijaya, Indonesia. He earned a Bachelor of Computer Science in
+            Informatics Engineering from Institut Teknologi Sepuluh Nopember, an MSc in
+            Computer Science from Universiti Teknologi Malaysia, and a Doctor of Engineering
+            in Information Engineering from Hiroshima University, Japan, under Prof. Takio Kurita.
           </p>
+          <p>
+            His research spans pattern recognition, multimodal computer vision, medical
+            informatics, explainable deep learning, large language and visual models, and
+            big data analytics. He has collaborated with AIST, RIKEN, Osaka University, and
+            other partners, and is active as founder of the Deep Learning Indonesia community.
+          </p>
+        </div>
+      </section>
+
+      <section id="works" class="works">
+        <div class="container wide">
+          <h2>Featured Works</h2>
+          <div class="works-grid">
+            <a href="https://github.com/cbasemaster/time-series-attribution" class="work-item" target="_blank" rel="noreferrer">
+              <img src="https://opengraph.githubassets.com/novanto-yudistira-time-series-attribution/cbasemaster/time-series-attribution" alt="time-series-attribution repository preview">
+              <div class="work-info">
+                <span class="work-title">Learning Where to Look for COVID-19 Growth</span>
+                <span class="work-venue">Applied Soft Computing, 2021 / Explainable Conv-LSTM</span>
+              </div>
+            </a>
+            <a href="https://github.com/cbasemaster/lstmcorona" class="work-item" target="_blank" rel="noreferrer">
+              <img src="https://opengraph.githubassets.com/novanto-yudistira-lstmcorona/cbasemaster/lstmcorona" alt="lstmcorona repository preview">
+              <div class="work-info">
+                <span class="work-title">COVID-19 Growth Prediction using Multivariate LSTM</span>
+                <span class="work-venue">International Journal of Computer Science, 2020</span>
+              </div>
+            </a>
+            <a href="https://github.com/cbasemaster/3DCNNattr" class="work-item" target="_blank" rel="noreferrer">
+              <img src="https://opengraph.githubassets.com/novanto-yudistira-3dcnn/cbasemaster/3DCNNattr" alt="3DCNNattr repository preview">
+              <div class="work-info">
+                <span class="work-title">Weakly-Supervised Action Localization and Recognition</span>
+                <span class="work-venue">International Journal of Computer Vision, 2022</span>
+              </div>
+            </a>
+            <a href="https://github.com/cbasemaster/uvcorona" class="work-item" target="_blank" rel="noreferrer">
+              <img src="https://opengraph.githubassets.com/novanto-yudistira-uvcorona/cbasemaster/uvcorona" alt="uvcorona repository preview">
+              <div class="work-info">
+                <span class="work-title">UV, Pollution, and COVID-19 Growth Analysis</span>
+                <span class="work-venue">Big data analytics for environmental and health signals</span>
+              </div>
+            </a>
+          </div>
+          <p class="view-all"><a href="#publications">View selected publications</a></p>
         </div>
       </section>
 
       <section id="publications" class="publications">
         <div class="container">
-          <h2>Publications</h2>
+          <h2>Selected Publications</h2>
           <article class="publication-item">
-            <a href="https://github.com/cbasemaster/time-series-attribution" target="_blank" rel="noreferrer">
-              <img
-                class="thumb"
-                src="https://opengraph.githubassets.com/novanto-yudistira-pub-attribution/cbasemaster/time-series-attribution"
-                alt="time-series attribution repository preview"
-              >
-            </a>
+            <div class="pub-year">2022</div>
             <div class="info">
-              <span class="badge">Selected</span>
-              <h3>Learning Where to Look for COVID-19 Growth: Multivariate Analysis of COVID-19 Cases over Time using Explainable Convolution-LSTM</h3>
-              <p class="authors">Novanto Yudistira and collaborators</p>
-              <p class="venue">Applied Soft Computing, 2021</p>
-              <p class="links">
-                <a href="https://github.com/cbasemaster/time-series-attribution" target="_blank" rel="noreferrer">Code</a>
-              </p>
+              <span class="badge">SCI / Scopus Q1</span>
+              <h3>Weakly-Supervised Action Localization, and Action Recognition Using Global-Local Attention of 3D CNN</h3>
+              <p class="authors">Novanto Yudistira, Muthu Subash Kavitha, Takio Kurita</p>
+              <p class="venue">International Journal of Computer Vision, Springer</p>
             </div>
           </article>
 
           <article class="publication-item">
-            <a href="https://github.com/cbasemaster/lstmcorona" target="_blank" rel="noreferrer">
-              <img
-                class="thumb"
-                src="https://opengraph.githubassets.com/novanto-yudistira-pub-lstm/cbasemaster/lstmcorona"
-                alt="lstmcorona repository preview"
-              >
-            </a>
+            <div class="pub-year">2021</div>
             <div class="info">
-              <h3>COVID-19 Growth Prediction using Multivariate Long Short Term Memory</h3>
-              <p class="authors">Novanto Yudistira</p>
-              <p class="venue">arXiv, 2020</p>
-              <p class="links">
-                <a href="https://github.com/cbasemaster/lstmcorona" target="_blank" rel="noreferrer">Code</a>
-              </p>
+              <span class="badge">SCI / Scopus Q1</span>
+              <h3>Learning where to look for COVID-19 growth: Multivariate analysis of COVID-19 cases over time using explainable convolution-LSTM</h3>
+              <p class="authors">Novanto Yudistira, Sutiman Bambang Sumitro, Alberth Nahas, Nelly Florida Riama</p>
+              <p class="venue">Applied Soft Computing, Elsevier</p>
             </div>
           </article>
 
           <article class="publication-item">
-            <a href="https://github.com/cbasemaster/uvcorona" target="_blank" rel="noreferrer">
-              <img
-                class="thumb"
-                src="https://opengraph.githubassets.com/novanto-yudistira-pub-uv/cbasemaster/uvcorona"
-                alt="uvcorona repository preview"
-              >
-            </a>
+            <div class="pub-year">2020</div>
             <div class="info">
-              <h3>Analysis of COVID-19 Pandemic Growth in Subtropical and Tropical Countries using Big Data Analytics</h3>
-              <p class="authors">Novanto Yudistira and collaborators</p>
-              <p class="venue">Environmental signal analysis, 2020</p>
-              <p class="links">
-                <a href="https://github.com/cbasemaster/uvcorona" target="_blank" rel="noreferrer">Code</a>
-              </p>
+              <span class="badge">SCI / Scopus Q1</span>
+              <h3>Correlation Net: Spatiotemporal multimodal deep learning for action recognition</h3>
+              <p class="authors">Novanto Yudistira, Takio Kurita</p>
+              <p class="venue">Signal Processing: Image Communication, Elsevier</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="pub-year">2020</div>
+            <div class="info">
+              <span class="badge">SCI / Scopus Q1</span>
+              <h3>Prediction of Sequential Organelles Localization under Imbalance using A Balanced Deep U-Net</h3>
+              <p class="authors">Novanto Yudistira, Muthu Subash Kavitha, T. Itabashi, A. H. Iwane, Takio Kurita</p>
+              <p class="venue">Scientific Reports, Nature Publishing Group</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="pub-year">2017</div>
+            <div class="info">
+              <span class="badge">SCIE / Scopus Q2</span>
+              <h3>Gated spatio and temporal convolutional neural network for activity recognition: towards gated multimodal deep learning</h3>
+              <p class="authors">Novanto Yudistira, Takio Kurita</p>
+              <p class="venue">EURASIP Journal on Image and Video Processing, Springer</p>
             </div>
           </article>
         </div>
@@ -144,26 +175,40 @@
 
       <section id="cv" class="cv">
         <div class="container narrow">
-          <h2>CV</h2>
+          <h2>CV Highlights</h2>
           <div class="cv-item">
-            <span class="cv-date">Research Area</span>
+            <span class="cv-date">2007</span>
             <div class="cv-details">
-              <strong>Pattern Recognition and Deep Learning</strong>
-              <p>Time-series modeling, explainable AI, public-health analytics, and environmental signals.</p>
+              <strong>Bachelor of Computer Science</strong>
+              <p>Informatics Engineering, Institut Teknologi Sepuluh Nopember, Indonesia.</p>
             </div>
           </div>
           <div class="cv-item">
-            <span class="cv-date">Profile</span>
+            <span class="cv-date">2011</span>
             <div class="cv-details">
-              <strong>PhD in pattern recognition from Japan</strong>
-              <p>Public GitHub profile: cbasemaster.</p>
+              <strong>Master of Science</strong>
+              <p>Computer Science, Universiti Teknologi Malaysia.</p>
             </div>
           </div>
           <div class="cv-item">
-            <span class="cv-date">Tools</span>
+            <span class="cv-date">2018</span>
             <div class="cv-details">
-              <strong>Python research stack</strong>
-              <p>Machine learning experiments, scientific computing, and open research code.</p>
+              <strong>Doctor of Engineering</strong>
+              <p>Information Engineering, Faculty of Engineering, Hiroshima University, Japan.</p>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">2018-2020</span>
+            <div class="cv-details">
+              <strong>Postdoctoral research collaboration</strong>
+              <p>Informatics and data analytics collaboration with RIKEN and Osaka University.</p>
+            </div>
+          </div>
+          <div class="cv-item">
+            <span class="cv-date">2024-2025</span>
+            <div class="cv-details">
+              <strong>Research recognition</strong>
+              <p>Best Paper awards for generative batik restoration and new category discovery, plus Dekranasda recognition for GenBatik.</p>
             </div>
           </div>
         </div>
@@ -173,9 +218,10 @@
     <footer id="contact">
       <div class="container">
         <ul class="icons" aria-label="Social links">
-          <li><a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a></li>
-          <li><a href="https://github.com/cbasemaster?tab=repositories" target="_blank" rel="noreferrer" aria-label="Repositories">Repos</a></li>
-          <li><a href="#cv" aria-label="CV">CV</a></li>
+          <li><a href="mailto:yudistira@ub.ac.id">Email</a></li>
+          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57188984613" target="_blank" rel="noreferrer">Scopus</a></li>
+          <li><a href="https://sinta.kemdikbud.go.id/authors/profile/6690720" target="_blank" rel="noreferrer">SINTA</a></li>
+          <li><a href="https://github.com/cbasemaster" target="_blank" rel="noreferrer">GitHub</a></li>
         </ul>
         <p class="copyright">Copyright <span id="year"></span> Novanto Yudistira</p>
       </div>
