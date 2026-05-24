@@ -210,6 +210,7 @@ p {
 section {
   padding: 5rem 0;
   border-bottom: 1px solid var(--border);
+  scroll-margin-top: calc(var(--nav-height) + 1rem);
 }
 
 .stats {
@@ -444,6 +445,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --nav-height: 88px;
+  }
+
   .container,
   .container.wide {
     width: min(calc(100% - 2.5rem), var(--container));
@@ -507,6 +512,7 @@ footer {
 @media (max-width: 480px) {
   .nav-links {
     gap: 0.55rem;
+    row-gap: 0.25rem;
   }
 
   .nav-links a {
