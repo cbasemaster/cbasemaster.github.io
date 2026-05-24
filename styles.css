@@ -124,8 +124,10 @@ p {
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.6rem;
   align-items: center;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -135,6 +137,7 @@ p {
   color: var(--muted);
   font-size: 0.9rem;
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .nav-links a:hover,
@@ -462,8 +465,9 @@ footer {
     display: none;
   }
 
-.nav-links {
+  .nav-links {
     gap: 0.95rem;
+    justify-content: center;
   }
 
   .nav-links a {
