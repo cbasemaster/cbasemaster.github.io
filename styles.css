@@ -388,6 +388,31 @@ section {
   line-height: 1.25;
 }
 
+.metrics-note {
+  margin: 0.8rem 0 0;
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.metrics-note a,
+.metrics-note span,
+.metrics-note small {
+  display: block;
+}
+
+.metrics-note a {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.metrics-note strong {
+  color: var(--ink);
+  font: inherit;
+  font-weight: 600;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);

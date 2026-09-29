@@ -56,7 +56,14 @@ def parse_h_indexes(text: str) -> dict[str, int]:
 
 
 def main() -> None:
-    metrics = parse_h_indexes(read_page_text(SINTA_URL))
+    metrics: dict[str, object] = {}
+    if OUTPUT_PATH.exists():
+        try:
+            metrics = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            metrics = {}
+
+    metrics.update(parse_h_indexes(read_page_text(SINTA_URL)))
     metrics.update(
         {
             "sourceName": "SINTA",

@@ -30,7 +30,19 @@ async function refreshMetrics() {
     metricFields.forEach((field) => {
       const key = field.dataset.metric;
       if (key && metrics[key] !== undefined && metrics[key] !== null) {
-        field.textContent = metrics[key];
+        if (field.dataset.metricFormat === "date") {
+          const date = new Date(`${metrics[key]}T00:00:00`);
+          field.textContent = Number.isNaN(date.getTime())
+            ? metrics[key]
+            : new Intl.DateTimeFormat("en", {
+                day: "numeric",
+                month: "short",
+                year: "numeric",
+              }).format(date);
+          field.dateTime = metrics[key];
+        } else {
+          field.textContent = metrics[key];
+        }
       }
     });
   } catch (error) {
