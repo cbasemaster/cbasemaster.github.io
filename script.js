@@ -40,6 +40,11 @@ async function refreshMetrics() {
                 year: "numeric",
               }).format(date);
           field.dateTime = metrics[key];
+        } else if (field.dataset.metricFormat === "number") {
+          const number = Number(metrics[key]);
+          field.textContent = Number.isNaN(number)
+            ? metrics[key]
+            : new Intl.NumberFormat("en").format(number);
         } else {
           field.textContent = metrics[key];
         }
